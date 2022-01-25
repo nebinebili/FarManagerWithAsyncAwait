@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\FarManager\FarManager\bin\Debug\FarManager.exe.config
+C:\Users\Admin\source\repos\FarManager\FarManager\bin\Debug\FarManager.exe
+C:\Users\Admin\source\repos\FarManager\FarManager\bin\Debug\FarManager.pdb
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\FarManager.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\FarManager_MarkupCompile.cache
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\FarManager_MarkupCompile.lref
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\FarManager.g.resources
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\FarManager.Properties.Resources.resources
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\FarManager.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\FarManager.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\FarManager.exe
+C:\Users\Admin\source\repos\FarManager\FarManager\obj\Debug\FarManager.pdb

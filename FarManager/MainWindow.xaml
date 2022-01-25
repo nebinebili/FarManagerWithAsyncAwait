@@ -1,0 +1,194 @@
+﻿<Window x:Class="FarManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FarManager"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="680" 
+        Width="800"
+        WindowStartupLocation="CenterScreen">
+    
+    <Grid>
+
+        
+        <Canvas>
+
+            <TextBox
+                Height="30"
+                Width="360"
+                BorderThickness="2"
+                Canvas.Bottom="55"
+                Canvas.Left="10"
+                FontSize="16"
+                IsEnabled="False"
+                FontWeight="Bold"
+                Name="txbfirst_path">
+                
+            </TextBox>
+            
+            <Button
+                Height="30"
+                Width="60"
+                BorderThickness="0"
+                Canvas.Top="20"
+                Canvas.Left="0"
+                Content="⬅"
+                Background="Transparent"
+                FontSize="40"
+                Padding="0,-15,0,0"
+                Name="btn_backfirst" 
+                Click="btn_backfirst_Click">
+                
+            </Button>
+
+            <Button
+                Height="30"
+                Width="60"
+                BorderThickness="0"
+                Canvas.Top="10"
+                Canvas.Left="170"
+                Content="🗘"
+                Background="Transparent"
+                FontSize="35"
+                Padding="0,-10,0,0"
+                Name="btn_refreshfirst" Click="btn_refreshfirst_Click" 
+                >
+
+            </Button>
+
+            <ComboBox
+                Height="30"
+                Width="150"
+                Canvas.Top="10"
+                Canvas.Left="220"
+                Name="cbxfirst" 
+                SelectionChanged="cbxfirst_SelectionChanged">
+                
+            </ComboBox>
+            
+            <ListBox
+                Height="500"
+                Width="360"
+                Canvas.Left="10"
+                Canvas.Top="50"
+                Name="listbox_first"
+                MouseDoubleClick="listbox_first_MouseDoubleClick">
+                
+            </ListBox>
+
+            
+            <ListBox
+                Height="500"
+                Width="360"
+                Canvas.Right="10"
+                Canvas.Top="50"
+                Name="listbox_second"
+                MouseDoubleClick="listbox_second_MouseDoubleClick">
+
+            </ListBox>
+
+            <ComboBox
+                Height="30"
+                Width="150"
+                Canvas.Top="10"
+                Canvas.Right="10"
+                Name="cbxsecond" SelectionChanged="cbxsecond_SelectionChanged" 
+                >
+
+            </ComboBox>
+
+            <Button
+                Height="30"
+                Width="60"
+                BorderThickness="0"
+                Canvas.Top="20"
+                Canvas.Right="310"
+                Content="⬅"
+                Background="Transparent"
+                FontSize="40"
+                Padding="0,-15,0,0"
+                Name="btn_backsecond" Click="btn_backsecond_Click" 
+                >
+
+            </Button>
+
+            <Button
+                Height="30"
+                Width="60"
+                BorderThickness="0"
+                Canvas.Top="10"
+                Canvas.Right="150"
+                Content="🗘"
+                Background="Transparent"
+                FontSize="35"
+                Padding="0,-10,0,0"
+                Name="btn_refreshsecond" Click="btn_refreshsecond_Click" 
+                
+                >
+
+            </Button>
+
+            <TextBox
+                Height="30"
+                Width="360"
+                BorderThickness="2"
+                Canvas.Bottom="55"
+                Canvas.Right="10"
+                FontSize="16"
+                IsEnabled="False"
+                FontWeight="Bold"
+                Name="txbsecond_path">
+
+            </TextBox>
+
+            <Button
+                Height="35"
+                Width="120"
+                Canvas.Bottom="10"
+                Canvas.Left="50"
+                Name="btn_delete"
+                Content="Delete"
+                FontSize="20" Click="btn_delete_Click">
+                
+            </Button>
+
+            <Button
+                Height="35"
+                Width="120"
+                Name="btn_move"
+                Canvas.Bottom="10"
+                FontSize="20"
+                Content="Move"
+                Canvas.Left="250" Click="btn_move_Click">
+
+            </Button>
+
+            <Button
+                Height="35"
+                Width="120"
+                Name="btn_properties"
+                Canvas.Bottom="10"
+                Canvas.Right="250"
+                Content="Properties"
+                FontSize="20" Click="btn_properties_Click">
+
+            </Button>
+
+            <Button
+                Height="35"
+                Width="120"
+                Canvas.Bottom="10"
+                Canvas.Right="50"
+                Name="btn_copy"
+                Content="Copy"
+                FontSize="20" Click="btn_copy_Click">
+
+            </Button>
+
+        </Canvas>
+        
+    </Grid>
+    
+</Window>
